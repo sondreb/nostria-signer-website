@@ -74,17 +74,17 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <h3>Fast Signing</h3>
-                    <p>Quick approve or reject signing requests with minimal disruption to your workflow.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3>Cross-Platform</h3>
                     <p>Available on Windows, macOS, Linux, and Android - use it wherever you go.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Native Secure Storage</h3>
+                    <p>Your private keys are stored using your operating system's secure storage mechanisms.</p>
                 </div>
             </div>
         </div>
@@ -191,6 +191,18 @@
                     <h3>Which Nostr clients are supported?</h3>
                     <p>Nostria Signer works with most modern Nostr clients that support NIP-46 remote signing protocol (limited to bunker://).
                     </p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does Nostria Signer store my private keys?</h3>
+                    <p>Nostria Signer uses your operating system's native secure storage mechanism: 
+        <br>         <br>                  
+                        Windows Credential Manager on Windows, <br>
+                       Keychain on macOS, <br>
+                       Secret Service API/kwallet on Linux, <br>
+                       and the Keystore system on Android. 
+                       <br><br>
+                       This ensures your keys 
+                       are encrypted at rest and protected by your system's security.</p>
                 </div>
             </div>
         </div>
